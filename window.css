@@ -1,0 +1,541 @@
+*{
+    margin: 0;
+    padding: 0;
+    }
+    
+.Desktop{
+    
+    background-image: url(windows.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 95vh;
+    }
+
+   
+
+input{
+
+background-color: #414141;
+outline: none;
+width: 300px;
+height: 35px;
+border: none;
+padding-left: 10px;
+color: white;
+
+}
+
+.footer{
+
+    width: 100vw;
+    height: 50px;
+    background-color:black;
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+
+.first{
+
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 25px;
+    
+
+}
+
+
+.first>div{
+
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.second{
+
+    display: flex;
+    align-items: center;
+    color: white;
+
+}
+
+.search-bar{
+    display: flex;
+    height: 35px;
+    background-color: #414141;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.second>div{
+
+    margin-right: 25px;
+    cursor: pointer;
+}
+
+.slide{
+
+    background-color: #171717;
+    width: 750px;
+position: absolute;
+z-index: 1;
+
+bottom: 47px;
+
+display: flex;
+
+
+}
+
+
+.app{
+display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.show{
+    height: 800px;
+    
+}
+.hide{
+    height: 0px;
+    
+}
+
+.start:hover{
+
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+
+.icon:hover{
+    transform: scale(1.2);
+    transition-duration: 1s;
+
+}
+
+.slideBar-1{
+
+flex-grow: 1;
+background-color: #171717;
+display: flex;
+align-items: center;
+justify-content: space-between;
+flex-direction: column;
+font-size: 20px;
+color: white;
+overflow: scroll;
+margin-right: 0px;
+margin-left: 10px;
+
+}
+
+.suggested{
+
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.lines{
+    margin-top: 10px;
+}
+
+.profile{
+
+    width: 25px;
+    height: 25px;
+    background-color: gray;
+    border-radius: 50%;
+    background-image: url(thenna.jpeg);
+    background-size: cover;
+}
+
+.power-icon{
+
+    margin-bottom: 20px;
+}
+
+.slideBar-1>div{
+    padding: 5px;
+}
+
+.setting-icon{
+
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.slideBar-2{
+
+    flex-grow:3 ;
+    background-color:  #171717;
+    margin: 10px;
+    overflow: scroll;
+    color: white;
+    width: 230px;
+
+    
+    }
+
+    .slideBar-3{
+
+        flex-grow: 3;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        overflow: scroll;
+        margin-right: 10px;
+        
+        }
+        
+        .text{
+display: flex;
+            color: white;
+            justify-content: center;
+            align-items: center;
+            font-size: 25px;
+            
+        }
+
+ 
+
+        .grey-box{
+
+            width: 40px;
+            height: 40px;
+            background-color: gray;
+        }
+
+        .flexing{
+
+            display: flex;
+            margin-bottom: 5px;
+
+        }
+
+        .flexing>div{
+
+           margin-right: 10px;
+           
+        }
+
+        .options{
+
+            margin-bottom: 25px;
+        }
+
+        .third-1{
+
+            display: flex;
+            margin-top: 20px;
+            margin-left: 5px;
+            margin-bottom: 5px;
+        }
+
+        .third-2{
+
+            display: flex;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        .third-3{
+
+            display: flex;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        .third-4{
+
+            display: flex;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        .third-4>div{
+
+            margin-right: 5px;
+        }
+
+        .flexing>div:hover{
+cursor: pointer;
+
+        }
+
+        .large{
+
+            width: 280px;
+            height: 150px;
+            background-color: gray;
+            margin-left: 5px;
+            cursor: pointer;
+           
+            
+        }
+
+        .large:hover{
+
+            transform: scale(0.96);
+            transition-duration: 1s;
+        }
+
+        .medium:hover{
+
+            transform: scale(0.96);
+            transition-duration: 1s;
+        }
+
+        .medium{
+
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            cursor: pointer;
+        }
+
+        .medium-1{
+
+            width: 141px;
+            height: 141px;
+            background-color: orange;
+            cursor: pointer;
+        }
+        .medium-1:hover{
+
+            transform: scale(0.96);
+            transition-duration: 1s;
+        }
+
+        .app:hover{
+
+            transform: scale(1.1);
+            transition-duration: 1s;
+        }
+
+
+        
+.small{
+    width: 63px;
+    height: 63px;
+    background-color: red;
+    margin: 5px;
+    cursor: pointer;
+
+}
+
+.centre{
+
+    display: flex;
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.small-1{
+    width: 65px;
+    height: 69px;
+    background-color: #0078D8;;
+    margin-left: 10px;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+.small-flex{
+
+    display: flex;
+    cursor: pointer;
+    
+}
+
+
+.circle{
+
+width: 45px;
+height: 45px;
+background-color: white;
+border-radius: 50%;
+
+
+}
+.blue{
+
+    background-color: #0078D8;
+}
+
+.pink{
+
+    background-color: #D23BA7;
+}
+
+.img{
+
+
+    background-image: url(window.jpg);
+    background-size: cover;
+    
+
+}
+
+
+
+.word{
+    background-image: url(word.jpg);
+    background-size: cover;
+    
+
+}
+
+.note{
+    background-image: url(note.png);
+    background-size: cover;
+
+}
+
+.excel{
+    background-image: url(excel.png);
+    background-size: cover;
+
+}
+
+.powerpoint{
+    background-image: url(powerpoint.jpg);
+    background-size: cover;
+    
+
+}
+
+.picsart{
+    background-image: url(picsart.png);
+    background-size: cover;
+    cursor: pointer;
+
+}
+
+.xbox{
+    background-image: url(xbox.jpg);
+    background-size: cover;
+
+}
+
+
+.minecraft{
+    background-image: url(minecraft.jpg);
+    background-size: cover;
+
+}
+
+.netflix{
+
+        background-image: url(netflix.png);
+        background-size: cover;
+    
+}
+
+.microsoft1{
+    background-image: url(microsoft.png);
+    background-size: cover;
+}
+
+.light{
+
+    background-image: url(light.jpeg);
+    background-size: cover;
+}
+
+.receipes{
+
+    background-image: url(receipes.jpg);
+    background-size: cover;
+}
+
+.calculator{
+    background-image: url(calculator.png);
+    background-size: cover;
+}
+
+.calender{
+    background-image: url(calender.png);
+    background-size: cover;
+}
+
+.camera{
+    background-image: url(camera.png);
+    background-size: cover;
+}
+
+
+.store{
+
+    background-image: url(store.jpg);
+    background-size: cover;
+}
+
+.map{
+    background-image: url(map.png);
+    background-size: cover;
+}
+
+.rightClick{
+
+width: 170px;
+
+background-color: #fff;
+position: absolute;
+/* top: 100px;
+left: 300px; */
+border-radius: 3px;
+cursor: pointer;
+
+
+}
+
+.view>ul>li:hover{
+
+    background-color:	#DCDCDC;
+
+}
+
+.paste>ul>li:hover{
+    background-color:	#DCDCDC;
+
+    
+}
+
+.big{
+    height: 210px;
+}
+
+.small{
+
+display: none;
+}
+
+.line{
+
+    border-bottom: 1px solid grey;
+    margin:5px 10px;
+    
+}
+
+.view>ul>li{
+
+    list-style: none;
+    padding: 5px;
+}
+
+.paste>ul>li{
+
+    list-style: none;
+    padding: 5px;
+}
